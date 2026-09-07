@@ -1,0 +1,11 @@
+# Blank issues stay ON deliberately: the site's contribution form deep-links to
+# /issues/new?title=…&body=…, which opens the plain editor prefilled. Turning blank issues off
+# would break that path and send everyone through the template by hand instead.
+blank_issues_enabled: true
+contact_links:
+  - name: Browse the dataset
+    url: https://retrospec-cli.com/wiki
+    about: Check whether the option is already listed before submitting.
+  - name: How the data is licensed
+    url: https://retrospec-cli.com/data-license
+    about: ODbL 1.0 / DbCL 1.0, and what you're agreeing to by contributing.
